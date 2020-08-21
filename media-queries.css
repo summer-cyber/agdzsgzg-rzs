@@ -1,0 +1,21 @@
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+article, aside,  footer, header, nav,main,section, .info, .copyright  { 
+    display: block;
+}
+@media screen and (max-width: 480px) {
+   html {
+      -webkit-text-size-adjust: none;
+   }
+   #main-nav a {
+      font-size: 90%;
+      padding: 10px 8px;
+   }
+}
+img {
+   max-width: 100%;
+   height: auto;
+   width: auto\9; /* ie8 */
+}
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
